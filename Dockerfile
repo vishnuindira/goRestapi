@@ -19,7 +19,7 @@ RUN go build -o /docker-gs-ping
 # This is for documentation purposes only.
 # To actually open the port, runtime parameters
 # must be supplied to the docker command.
-EXPOSE 8080
+EXPOSE 8089
 
 # (Optional) environment variable that our dockerised
 # application can make use of. The value of environment
